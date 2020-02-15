@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextName_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextEmail_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="e-Mail Address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextUserID_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="User ID"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/editTextPass_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        >
+    </EditText>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/signUpButton_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button"
+        android:text="Sign Up"
+        >
+    </Button>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/signInTextView_id"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you not registered ? Sign In ."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/progressbar_id"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+</LinearLayout>
